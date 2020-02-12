@@ -1,0 +1,51 @@
+/*  -----  Reset / pre-styles css -----  */
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+/*  -----  General styles: header -----  */
+
+
+/*  -----  General styles: footer -----  */
+
+
+/*  -----  index.html: main section  -----  */
+
+/*  -----  page2_about_us_en.html: main section  -----  */
+
+/*  -----  page3_studio_en.html: main section  -----  */
+
+/*  -----  page4_services_en.html: main section  -----  */
+
+/*  -----  page5_gallery_en.html: main section  -----  */
+
+/*  -----  page6_other_en.html: main section  -----  */
+
+/*  -----  -  -----  */
+
+
+
+/*  -----  What to do next:  -----  
+    -- Create starting template. --
+
+    ----- Currently working on:  -----
+    -- Creating the starting template <head> adding the meta's + links + scripts + <body>. --
+
+
+
+
+
+-- start with basic skeleton of the page:
+-- link pages together 
+-- create nav bar. 
+-- create footer.
+
+
+-- search fotos / videos */
