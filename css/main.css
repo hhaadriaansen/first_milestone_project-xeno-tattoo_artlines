@@ -1,18 +1,28 @@
 /*  -----  Reset / pre-styles css -----  */
-* {
-  outline: 0;
-  padding: 0;
-  margin: 0;
+*, *::before, *::after {
   border: 0;
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
+  font-weight: 400;
   list-style: none;
+  margin: 0;  
+  outline: 0;
+  padding: 0;
   vertical-align: baseline;
 }
 
+
+
 /*  -----  General styles: header -----  */
+:root {       
+  --headercolor: rgba(28, 3, 37, 1);
+}
 
-
+header {            
+  background: var(--headercolor);
+  text-decoration: none;
+}
 /*  -----  General styles: footer -----  */
 
 
@@ -32,20 +42,49 @@
 
 
 
-/*  -----  What to do next:  -----  
-    -- Create starting template. --
-
-    ----- Currently working on:  -----
-    -- Creating the starting template <head> adding the meta's + links + scripts + <body>. --
 
 
+/*  -----  MY NOTES:  -----
 
+----- What to do next:  -----
+-- Create starting template. --
 
+----- Currently working on:  -----
+-- Creating sub menus lists for nav-bar. --
 
 -- start with basic skeleton of the page:
--- link pages together 
+-- link pages together language wise.
 -- create nav bar. 
 -- create footer.
 
+-- search photos / videos */
 
--- search fotos / videos */
+
+/*  ----- !! last commit  !!  -----
+
+Created initial navigation-skeleton and interconnected its pages of a singular language
+
+--- index.@html:
+- Created initial skeleton of the navigation.
+- Added menu-items and menu-items.
+
+--- *_en.html:
+- Copied navigation skeleton element to all pages. 
+- Interlinked all pages for better navigational controls. 
+- Tested each link to be fully functional.
+
+
+--- main.css:
+- Created :root {} styling element which allows us better overview & easier changing the colors on the total project.
+- Created initial headers styles. 
+
+
+--- General items:
+- Corrected small typo correction (fotos > photos) in main.css.
+
+--- To do:
+- Further develop the skeleton of the navigation element. 
+  - Start mobile first approach to start initial styles of navigation element.  
+
+
+*/
